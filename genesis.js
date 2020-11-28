@@ -11,11 +11,11 @@ var defaults = {
     //the first value of the nonce that will be incremented when searching the genesis hash
     nonce: 1,
     //the PoW algorithm: [x11|x13|x15|geek|quark|keccak|qubit|neoscrypt|lyra2re...]
-    algorithm: 'geek',
+    algorithm: 'neoscrypt',
     //the pubkey found in the output script
-    pubkey: '04678afdb0fe5548271967f1a67130b7105cd6a828e03909a67962e0ea1f61deb649f6bc3f4cef38c4f35504e51ec112de5c384df7ba0b8d578a4c702b6bf11d5f',
+    pubkey: '040184710fa689ad5038043c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9',
     //the value in coins for the output, full value (exp. in bitcoin 5000000000 - To get other coins value: Block Value * 100000000)
-    value: 5000000000,
+    value: 2200000000,
     //the target in compact representation, associated to a difficulty of 1
     bits: 0x1e0ffff0,
     locktime: 0
